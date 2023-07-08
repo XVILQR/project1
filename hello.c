@@ -1,15 +1,13 @@
 #include<stdio.h>
 
-void test()
+int test()
 {
     for (size_t i = 0; i < 100; i++)
     {
         printf("%d\n",i*i);
     }
-    
 
-
-
+    return 0;
 }
 
 
@@ -17,6 +15,7 @@ void test()
 
 int main()
 {
-    test();
+    if(test()=0)test;
+    
     return 0;
 }
